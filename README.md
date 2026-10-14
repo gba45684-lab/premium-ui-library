@@ -20,8 +20,11 @@ See [presets/STYLE_PRESETS.md](presets/STYLE_PRESETS.md): Glassmorphism, Liquid 
 - [UI_UX_RULES.md](UI_UX_RULES.md): quality and accessibility rules
 - [Style presets](presets/STYLE_PRESETS.md)
 - [Open-source resources](presets/OPEN_SOURCE_RESOURCES.md)
+- [Integration guide](INTEGRATION.md)
+- [Reusable redesign prompt](prompts/REDESIGN_PROMPT.md)
+- [App-level instruction template](templates/repo-uiux-instructions.md)
 - [Design review checklist](templates/design-review-checklist.md)
 - [Starter tokens](tokens/tokens.css)
 
 ## Important
-GitHub Actions alone will not redesign an app. Automated implementation requires a separately configured coding agent, scoped credentials and review. Never place API keys or tokens in source files.
+The central repository is now referenced by `AGENTS.md` in the connected app repos listed below. Future repositories still need their own instructions added or a compatible agent configured to read this library. GitHub Actions alone will not redesign an app. Automated implementation requires a separately configured coding agent, scoped credentials and review. Never place API keys or tokens in source files.
